@@ -1,0 +1,359 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ===== Navbar ===== */
+nav {
+  background-color: #111827;
+  color: #facc15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #facc15;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li a {
+  color: #f9fafb;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #facc15;
+}
+
+/* ===== Hero Section ===== */
+header {
+  background: linear-gradient(135deg, #3b82f6 0%, #facc15 100%);
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+header button {
+  background-color: #facc15;
+  color: #111827;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+header button:hover {
+  background-color: #111827;
+  color: #facc15;
+}
+
+/* ===== About Us ===== */
+#about {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#about h2 {
+  color: #3b82f6;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+/* ===== Why Choose Us ===== */
+#why-us {
+  background-color: #f3f4f6;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#why-us h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#why-us .features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#why-us .features li {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+#why-us .features li:hover {
+  background-color: #3b82f6;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+/* ===== Services ===== */
+#services {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#services h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service-cards .card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+
+.service-cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== Products ===== */
+#products {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+#products h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product-cards .card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+}
+
+.product-cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== Portfolio ===== */
+#portfolio {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#portfolio h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.portfolio-item {
+  background-color: #fff;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== Testimonials ===== */
+#testimonials {
+  padding: 4rem 2rem;
+  background-color: #f3f4f6;
+  text-align: center;
+}
+
+#testimonials h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.testimonials blockquote {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-style: italic;
+  color: #111827;
+  transition: all 0.3s;
+}
+
+.testimonials blockquote:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== CTA ===== */
+.cta-banner {
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-banner button {
+  background-color: #facc15;
+  color: #111827;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-banner button:hover {
+  background-color: #111827;
+  color: #facc15;
+}
+
+/* ===== Bookings / Contact ===== */
+#contact, .bookings {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#contact h2, .bookings h2 {
+  color: #3b82f6;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0.5rem auto;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+}
+
+form button {
+  background-color: #facc15;
+  color: #111827;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #3b82f6;
+  color: #fff;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #111827;
+  color: #f9fafb;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: #facc15;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #3b82f6;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
