@@ -3,9 +3,9 @@ import './index.css';
 function App() {
   return (
     <div>
-      {/* Navbar */}
+      
       <nav>
-        <h1>Grind & Gate Tech</h1>
+        <h1>LEKDAS GLOBAL VENTURES</h1>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -15,28 +15,27 @@ function App() {
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </nav> 
 
-      {/* Hero */}
+    
       <header id="home">
         <div>
-          <h2>Precision Gates, Doors & Food Grinding Machines</h2>
-          <p>Custom gates, sturdy doors, and reliable grinders for pepper, yam, shi, and more.</p>
-          <button>Request a Quote</button>
+          <h2>Precision Gates , Doors & Food Grinding Machines</h2>
+          <p>Custom gates, sturdy doors, and reliable grinders for pepper, yam, and more.</p>
         </div>
       </header>
 
-      {/* About Us */}
+      
       <section id="about">
         <h2>About Us</h2>
         <p>
-          At Grind & Gate Tech, we specialize in creating durable metal gates, strong doors, 
+          At LEKDAS GLOBAL VENTURE, we specialize in creating durable metal gates, strong doors, 
           and efficient food grinding machines. With years of experience, we blend engineering 
           expertise and craftsmanship to deliver products that last.
         </p>
       </section>
 
-      {/* Why Choose Us */}
+      
       <section id="why-us">
         <h2>Why Choose Us</h2>
         <ul className="features">
@@ -47,7 +46,7 @@ function App() {
         </ul>
       </section>
 
-      {/* Services */}
+      
       <section id="services">
         <h2>Our Services</h2>
         <div className="service-cards">
@@ -58,7 +57,7 @@ function App() {
         </div>
       </section>
 
-      {/* Products */}
+      
       <section id="products">
         <h2>Our Products</h2>
         <div className="product-cards">
@@ -70,7 +69,7 @@ function App() {
         </div>
       </section>
 
-      {/* Portfolio */}
+      
       <section id="portfolio">
         <h2>Our Portfolio</h2>
         <div className="portfolio-gallery">
@@ -81,23 +80,22 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials */}
+      
       <section id="testimonials">
         <h2>What Our Clients Say</h2>
         <div className="testimonials">
-          <blockquote>“The gate we ordered was exactly what we needed. Strong and beautiful!” – Amina O.</blockquote>
-          <blockquote>“My pepper grinder has been working perfectly for 2 years now.” – John A.</blockquote>
+          <blockquote>“The gate we ordered was exactly what we needed. Strong and beautiful!” – Aleilo O.</blockquote>
+          <blockquote>“My pepper grinder has been working perfectly for 2 years now.” – Olubolade A.</blockquote>
           <blockquote>“Quick delivery and great customer service.” – Grace L.</blockquote>
         </div>
       </section>
 
-      {/* Call to Action */}
+      
       <section id="cta" className="cta-banner">
         <h2>Looking for Durable Gates and Reliable Grinders?</h2>
-        <button>Get a Free Quote Today</button>
       </section>
 
-      {/* Contact / Orders */}
+      
       <section id="contact">
         <h2>Contact & Place an Order</h2>
         <form>
@@ -110,25 +108,20 @@ function App() {
           <button type="submit">Submit Order</button>
         </form>
         <div className="contact-info">
-          <p>Phone: +123 456 7890</p>
-          <p>Email: info@grindandgatetech.com</p>
-          <p>Address: 123 Industrial Road, Your City</p>
+          <p>Phone: +234 80 284 434</p>
+          <p>Email: owolabioluwaseyi16@gmail.com</p>
+          <p>Address: no 24 Barrister Ogunlewe Street Off Bayeku Road Igbogbo Ikorodu Lagos state</p>
         </div>
       </section>
 
 
-      {/* Footer */}
+      
       <footer className="footer">
         <div className="footer-links">
           <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
           <a href="#products">Products</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
         </div>
-        <p>© {new Date().getFullYear()} Grind & Gate Tech. All rights reserved.</p>
-        <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-        </div>
+        <p>© {new Date().getFullYear()} LEKDAS GLOBAL VENTURES. All rights reserved.</p>
       </footer>
     </div>
   );
