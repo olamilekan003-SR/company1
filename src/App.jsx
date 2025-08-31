@@ -5,7 +5,7 @@ function App() {
     <div>
       
       <nav>
-        <h1>LEKDAS GLOBAL VENTURES</h1>
+        <h1>LEKDAS GLOBAL VENTURE</h1>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -121,7 +121,7 @@ function App() {
           <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
           <a href="#products">Products</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
         </div>
-        <p>© {new Date().getFullYear()} LEKDAS GLOBAL VENTURES. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} LEKDAS GLOBAL VENTURE. All rights reserved.</p>
       </footer>
     </div>
   );
